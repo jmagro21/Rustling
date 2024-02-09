@@ -1,0 +1,95 @@
+Compte rendu des rustlings
+
+Introduction :
+
+Les exercices d'intro nous apprenne à utiliser println! au lieux de printline!
+Les rustling on besoin de perdre leur "//I AM NOT DONE" pour être validé
+
+Variables :
+
+Les exercices nous apprennent à utiliser les variables et bien les déclarer.
+On voit par exemple pour un chiffre la valeur i32.
+
+Functions : 
+
+Les exercices nous montrent comment utliser les fonctions, et comment retourner une valeur.
+Dans l'exercice 5, on voit qu'il faut retirer le ; pour retourner la bonne valeur.
+
+If :
+
+Les exercices nous expliques comment utiliser if / else
+Attention au type que l'on compare. il faut exactement le meme type...
+
+Primitive_Types :
+
+Les exercices nous apprennent à utiliser les tuples.
+Pour faire un appel sur un élément on prend dan le tuple sa position -1 et on obtient ça :
+variable.1 pour obtenir le deuxieme elemenent dans variables
+
+Vecs : 
+
+Les exercices nous apprennent à utiliser des vecs, cela fonctionne de façon simple,
+dans notre exemple, pour modifier notre valeur sur element, on doit placer un *
+sinon celle ci ne change pas.
+
+Move_Semantics :
+
+Les exercices nous apprennent à utiliser des & pour acceder à nos variables.
+Sans ça, on ne peut pas exploiter ici nos chaine de caractere.
+
+Structs :
+
+Les exercices nous apprennent à utiliser les structures en rust, on peut rapprocher ça à des classes.
+
+Enums : 
+
+Les exercices expliques simplement comment utiliser une expression.
+Dans notre exercice, Message à donc 4 valeur pré écrite. et on les Défini avec les bonne valeur (u8) par exemple
+Ensuite on l'appel plus loin en lui donnant des valeur en "matching"
+
+Strings :
+
+Utilisation appronfondie de String, Ici on utilise string ou la fonction string slice,
+
+Modules : 
+
+On exploite les modules pré implementer dans rust comme vu sur l'exercice UNIX_EPOCH
+Ce type de module permets par exemple ici, de récuperer la date et l'heure.
+
+hashmaps : 
+
+Pour cet exercice, il faut établir le score de l'équipe1 et ensuite additionner les buts marqué et prit.
+Pareil pour l'autre équipe.
+
+Options : 
+
+Ici on peut utiliser des mots clé tel que ref. Ici ref ne déplace pas vraiment la valeur. On peut donc l'exploiter sans l'impacter.
+
+errors : 
+
+Ici on apprend à utiliser les erreurs et les exploiters en sortie selon le type d'erreur que l'on définit avant.
+
+generics : 
+
+Dans cette exercice, on réécrit la strutures "warpper" pour utiliser les génériques afin qu'ils puissent stockés n'importe qu'elle type de variables.
+
+Traits : 
+
+Cet exercice se rapproche du précédent. Ici on ne compare pas deux types. mais deux "Traits.
+
+lifetimes : 
+
+Ici on apprend à donner une "vie" à nos variables, donc si on attribue une durée en amont, alors on doit le faire aussi plus bas.
+On anote une vie comme ceci : 'variable et <'variable>
+
+tests : 
+
+Ici, on apprend à utiliser des test logique pour retourner des valeur, selon le résultat obtenu.
+
+iterators : 
+
+La seul chose que je puisse dire ici est la suivante, la fonction count_for utilise une boucle for pour parcourir les valeurs du hashmap (map)
+puis en utilisant l'instruction if il vérifie la valeur si elle est égale à la donnée.
+
+smart_pointers :
+
